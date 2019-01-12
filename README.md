@@ -6,13 +6,14 @@
 
 int main(void) {
     
-    int i,n;
+    int i,w;
+    int n=1;
     printf("enter the number of lines required\n");
-    scanf("%d",&n);
-    if (n<=0){
+    scanf("%d",&w);
+    if (w<=0){
         printf("0");
         } else {
-            while(n<=5){
+            while(n<=w){
                 for(i=1; i<=n; i++){
                     printf("%d",i);
                 }
